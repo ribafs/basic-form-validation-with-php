@@ -147,9 +147,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <?php endif; ?>
   </div>
 
-  <label for="favouriteFruit">My favourite fruit</label>
+  <label for="favoriteFruit">My favourite fruit</label>
   <div>
-    <select name="favoriteFruit[]" id="favouriteFruit" size="4" multiple="">
+    <select name="favoriteFruit[]" id="favoriteFruit" size="4" multiple="">
       <?php
       $options = ["apple", "banana", "plum", "pomegranate", "strawberry", "watermelon"];
       foreach ($options as $option) {
